@@ -1,0 +1,14 @@
+# Step-by-step execution
+python scripts/data_pipeline.py
+python scripts/train_model.py
+python run.py
+
+
+
+python scripts/deploy_model.py
+
+
+
+
+python -m venv seafood_env
+seafood_env\Scripts\activate
