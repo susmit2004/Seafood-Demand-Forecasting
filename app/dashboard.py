@@ -910,7 +910,7 @@ st.markdown('<hr class="custom-divider">', unsafe_allow_html=True)
 st.markdown(
     """
 <div class="footer">
-    <p>Seafood Demand Forecasting System v3.0 | Built By Satyajeet Desai and Susmit Naik</p>
+    <p>Seafood Demand Forecasting System v3.0 | Built By Susmit Naik</p>
 </div>
 """,
     unsafe_allow_html=True,

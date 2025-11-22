@@ -1,7 +1,7 @@
 # mkdocs.yml
 site_name: Seafood Demand Forecasting
 site_description: AI-Powered Seafood Demand Prediction System
-site_author: Satyajeet and Susmit
+site_author: Susmit
 
 theme:
   name: material
