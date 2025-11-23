@@ -12,3 +12,16 @@ python scripts/deploy_model.py
 
 python -m venv seafood_env
 seafood_env\Scripts\activate
+
+streamlit run app/dashboard.py
+
+
+
+update dashboard name to Jagdamba fisheries
+
+
+git init 
+
+git add .
+
+git commit -m "dashboard update"

@@ -290,7 +290,7 @@ except ImportError:
 
 
 # Page config
-st.set_page_config(page_title="Seafood Demand Forecasting", page_icon="🐟", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Jagdsamba Fisheries Demand Forecasting", page_icon="🐟", layout="wide", initial_sidebar_state="expanded")
 
 # Initialize session state
 if "forecast_engine" not in st.session_state:
