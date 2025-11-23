@@ -1,5 +1,5 @@
 """
-Streamlit Dashboard for Seafood Demand Forecasting
+Streamlit Dashboard for Jagdamba Fisheries Demand Forecasting
 """
 
 import streamlit as st
@@ -290,7 +290,7 @@ except ImportError:
 
 
 # Page config
-st.set_page_config(page_title="Jagdsamba Fisheries Demand Forecasting", page_icon="🐟", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Jagdamba Fisheries Demand Forecasting", page_icon="🐟", layout="wide", initial_sidebar_state="expanded")
 
 # Initialize session state
 if "forecast_engine" not in st.session_state:
@@ -462,7 +462,7 @@ st.markdown(
 )
 
 # Sidebar
-st.sidebar.title("🐟 Seafood Forecasting")
+st.sidebar.title("🐟 Jagdamba Fisheries Forecasting")
 st.sidebar.markdown('<hr class="custom-divider">', unsafe_allow_html=True)
 
 # Navigation
@@ -470,7 +470,7 @@ page = st.sidebar.selectbox("Navigate", ["Dashboard", "Forecast Generator", "Dat
 
 # Dashboard Page
 if page == "Dashboard":
-    st.markdown('<div class="main-header">📊 Seafood Demand Forecasting Dashboard</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header">📊 Jagdamba Fisheries Demand Forecasting Dashboard</div>', unsafe_allow_html=True)
     st.markdown('<hr class="custom-divider">', unsafe_allow_html=True)
 
     # Get available data
@@ -910,7 +910,7 @@ st.markdown('<hr class="custom-divider">', unsafe_allow_html=True)
 st.markdown(
     """
 <div class="footer">
-    <p>Seafood Demand Forecasting System v3.0 | Built By Susmit Naik</p>
+    <p>Jagdamba Fisheries Demand Forecasting System v3.0 | Built By Susmit Naik</p>
 </div>
 """,
     unsafe_allow_html=True,
